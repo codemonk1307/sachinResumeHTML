@@ -1,0 +1,72 @@
+
+
+body{
+    background-color:  rgb(235, 224, 231);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 5%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+h1{
+    text-transform: uppercase;
+    color: brown;
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(134, 52, 19);  
+}
+
+hr{
+    border: none;
+    border-top: 3px double rgb(233, 228, 228);
+    color: rgb(209, 203, 203);
+    
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+a:hover{
+    color: rgb(62, 124, 62);
+    font-display: "click";
+}
+
+.programming-handles {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50%;
+}
+
+
+table { 
+    table-layout:fixed;
+}
+
+td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+
+.profile{
+    table-layout: auto;
+}
+
+.contacts-list{
+    margin-left: inherit;
+}
